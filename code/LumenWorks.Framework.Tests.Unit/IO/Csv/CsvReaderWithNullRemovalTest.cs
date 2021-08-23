@@ -313,15 +313,6 @@ namespace LumenWorks.Framework.Tests.Unit.IO.Csv
             });
         }
 
-#if !NETCOREAPP1_0 && !NETCOREAPP2_0
-        [Test]
-        public void CachedNoHeaderWithNullRemovalStreamReader()
-        {
-            var csv = new CsvReader(new MemoryStream(Encoding.ASCII.GetBytes("12345678;Hello\r\n78945612;World")), false, Encoding.ASCII, ';');
-            var dgv = new System.Windows.Forms.DataGridView();
-            dgv.Refresh();
-        }
-#endif
 
         [Test]
         public void CopyCurrentRecordToTest1WithNullRemovalStreamReader()

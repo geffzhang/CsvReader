@@ -1,12 +1,8 @@
-#if !NETCOREAPP1_0 && !NETCOREAPP2_0
-using System.Data;
-using System.Data.OleDb;
-#endif
+
 using System.IO;
 
 namespace CsvReaderBenchmarks
 {
-#if !NETCOREAPP1_0 && !NETCOREAPP2_0
     using System.Data;
     using System.Data.OleDb;
     using System.IO;
@@ -73,5 +69,5 @@ namespace CsvReaderBenchmarks
             }
         }
     }
-#endif
+
 }

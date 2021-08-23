@@ -1208,18 +1208,6 @@ namespace LumenWorks.Framework.Tests.Unit.IO.Csv
             }
         }
 
-#if !NETCOREAPP1_0 && !NETCOREAPP2_0 
-        [Test]
-        public void CachedNoHeader()
-        {
-            var csv = new CachedCsvReader(new StringReader("12345678;Hello\r\n78945612;World"), false, ';');
-
-            var dgv = new System.Windows.Forms.DataGridView();
-            dgv.DataSource = csv;
-
-            dgv.Refresh();
-        }
-#endif
 
         [Test]
         public void HasHeader_NullHeader()

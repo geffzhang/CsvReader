@@ -35,12 +35,8 @@ namespace CsvReaderBenchmarks
 
         public static void Run(string path, int field)
         {
-#if NETCOREAPP1_0
-            var fileStream = new FileStream(path, FileMode.Open);
-            using (var csv = new CsvReader(new StreamReader(fileStream), false))
-#else
+
             using (var csv = new CsvReader(new StreamReader(path), false))
-#endif
             {
                 csv.SupportsMultiline = false;
                 string s;

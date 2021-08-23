@@ -4,7 +4,7 @@ using LumenWorks.Framework.IO.Csv;
 
 namespace CsvReaderBenchmarks
 {
-#if !NETCOREAPP1_0
+
     public sealed class CachedCsvReaderBenchmark
     {
         private CachedCsvReaderBenchmark()
@@ -99,5 +99,4 @@ namespace CsvReaderBenchmarks
         }
         
     }
-#endif
 }

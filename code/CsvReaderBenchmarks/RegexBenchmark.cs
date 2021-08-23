@@ -37,12 +37,8 @@ namespace CsvReaderBenchmarks
 
             var fieldGroupIndex = regex.GroupNumberFromName("field");
 
-#if NETCOREAPP1_0
-            var fileStream = new FileStream(path, FileMode.Open);
-            using (var csv = new StreamReader(fileStream))
-#else
+
             using (var csv = new StreamReader(path))
-#endif
             {
                 string s;
 

@@ -1,0 +1,214 @@
+2021-08-23 12:06:16.604 +08:00 [INF] Loaded 5 extensions
+2021-08-23 12:06:16.964 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.400\
+2021-08-23 12:06:18.877 +08:00 [INF] Found Visual Studio v16.11.31613.86 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise]
+2021-08-23 12:06:18.883 +08:00 [INF] Found Visual Studio v17.0.31612.314 [C:\Program Files\Microsoft Visual Studio\2022\Preview]
+2021-08-23 12:06:23.326 +08:00 [INF] Initializing upgrade step Select an entrypoint
+2021-08-23 12:06:41.521 +08:00 [INF] Applying upgrade step Select an entrypoint
+2021-08-23 12:07:37.146 +08:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-08-23 12:07:43.524 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-23 12:07:43.639 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:07:43.647 +08:00 [INF] No projects need upgraded for selected entrypoint
+2021-08-23 12:07:43.654 +08:00 [INF] Initializing upgrade step Finalize upgrade
+2021-08-23 12:07:55.123 +08:00 [INF] Applying upgrade step Finalize upgrade
+2021-08-23 12:07:55.128 +08:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-08-23 12:08:01.959 +08:00 [INF] Upgrade has completed. Please review any changes.
+2021-08-23 12:08:01.967 +08:00 [INF] No state to save
+2021-08-23 12:08:09.418 +08:00 [INF] Loaded 5 extensions
+2021-08-23 12:08:09.723 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.400\
+2021-08-23 12:08:10.219 +08:00 [INF] Found Visual Studio v16.11.31613.86 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise]
+2021-08-23 12:08:10.227 +08:00 [INF] Found Visual Studio v17.0.31612.314 [C:\Program Files\Microsoft Visual Studio\2022\Preview]
+2021-08-23 12:08:15.092 +08:00 [INF] Initializing upgrade step Select an entrypoint
+2021-08-23 12:08:21.073 +08:00 [INF] Applying upgrade step Select an entrypoint
+2021-08-23 12:08:36.859 +08:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-08-23 12:08:39.149 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-23 12:08:39.258 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:08:39.368 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:08:44.179 +08:00 [INF] Applying upgrade step Select project to upgrade
+2021-08-23 12:08:44.221 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:08:44.322 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:08:57.167 +08:00 [INF] Upgrade step Select project to upgrade applied successfully
+2021-08-23 12:08:59.842 +08:00 [INF] Initializing upgrade step Back up project
+2021-08-23 12:09:14.497 +08:00 [INF] Skipping upgrade step Back up project
+2021-08-23 12:09:14.501 +08:00 [INF] Upgrade step Back up project skipped
+2021-08-23 12:09:19.715 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-23 12:09:36.177 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-23 12:09:36.215 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:09:36.306 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:09:58.668 +08:00 [INF] Applying upgrade step Select project to upgrade
+2021-08-23 12:09:58.700 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:09:58.810 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:10:10.958 +08:00 [ERR] Unknown selection: '3'
+2021-08-23 12:10:16.203 +08:00 [INF] Upgrade step Select project to upgrade applied successfully
+2021-08-23 12:10:32.133 +08:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-08-23 12:10:32.138 +08:00 [INF] Converting project file format with try-convert, version 0.9.232202
+2021-08-23 12:10:33.785 +08:00 [INF] [dotnet] Conversion complete!
+2021-08-23 12:10:35.543 +08:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-08-23 12:10:38.864 +08:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-08-23 12:10:48.570 +08:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-08-23 12:10:57.246 +08:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-23 12:10:57.257 +08:00 [INF] Packages to be added: Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.241603, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-23 12:10:57.289 +08:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-08-23 12:10:57.296 +08:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.241603
+2021-08-23 12:11:06.894 +08:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-08-23 12:11:13.444 +08:00 [INF] Initializing upgrade step Update TFM
+2021-08-23 12:11:13.557 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:11:13.561 +08:00 [INF] TFM needs updated to netcoreapp1.0
+2021-08-23 12:11:26.083 +08:00 [INF] Applying upgrade step Update TFM
+2021-08-23 12:11:26.089 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:11:31.941 +08:00 [INF] Updated TFM to netcoreapp1.0
+2021-08-23 12:11:31.944 +08:00 [INF] Upgrade step Update TFM applied successfully
+2021-08-23 12:11:32.083 +08:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-08-23 12:11:35.584 +08:00 [INF] No package updates needed
+2021-08-23 12:11:35.614 +08:00 [INF] Initializing upgrade step Add template files
+2021-08-23 12:11:35.623 +08:00 [INF] 0 expected template items needed
+2021-08-23 12:11:35.625 +08:00 [INF] Initializing upgrade step Upgrade app config files
+2021-08-23 12:11:35.687 +08:00 [INF] Found 0 app settings for upgrade: 
+2021-08-23 12:11:35.694 +08:00 [INF] Found 0 connection strings for upgrade: 
+2021-08-23 12:11:35.706 +08:00 [INF] Initializing upgrade step Update source code
+2021-08-23 12:11:35.714 +08:00 [INF] Running analyzers on CsvReaderDemo
+2021-08-23 12:11:37.250 +08:00 [INF] Identified 0 diagnostics in project CsvReaderDemo
+2021-08-23 12:11:37.319 +08:00 [INF] Initializing upgrade step Move to next project
+2021-08-23 12:12:08.447 +08:00 [INF] Applying upgrade step Move to next project
+2021-08-23 12:12:08.451 +08:00 [INF] Upgrade step Move to next project applied successfully
+2021-08-23 12:12:12.501 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:12:12.544 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.547 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.549 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.550 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.552 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.552 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.553 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.557 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.559 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.562 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.564 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.565 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.584 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:12:12.589 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.589 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.592 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.593 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.594 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.595 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.596 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.597 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.599 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.600 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.602 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.603 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.621 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:12:12.623 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.624 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.630 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.631 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.633 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.635 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.637 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.639 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.640 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.641 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.643 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.645 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.647 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-23 12:12:12.679 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.766 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.789 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:12:12.791 +08:00 [INF] No projects need upgraded for selected entrypoint
+2021-08-23 12:12:12.792 +08:00 [INF] Initializing upgrade step Finalize upgrade
+2021-08-23 12:12:12.799 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:12:12.801 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.802 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.804 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.804 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.806 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.807 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.808 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.809 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.810 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.811 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:12.813 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:12:12.814 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:12:32.119 +08:00 [INF] Applying upgrade step Finalize upgrade
+2021-08-23 12:12:32.121 +08:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-08-23 12:12:33.767 +08:00 [INF] Upgrade has completed. Please review any changes.
+2021-08-23 12:12:33.775 +08:00 [INF] No state to save
+2021-08-23 12:13:56.343 +08:00 [INF] Loaded 5 extensions
+2021-08-23 12:13:56.654 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.400\
+2021-08-23 12:13:57.089 +08:00 [INF] Found Visual Studio v16.11.31613.86 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise]
+2021-08-23 12:13:57.100 +08:00 [INF] Found Visual Studio v17.0.31612.314 [C:\Program Files\Microsoft Visual Studio\2022\Preview]
+2021-08-23 12:14:02.226 +08:00 [INF] Initializing upgrade step Select an entrypoint
+2021-08-23 12:14:02.282 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:14:02.290 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:02.292 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:02.294 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:02.295 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:02.296 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:02.297 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:02.298 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:02.299 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:02.301 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:02.302 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:02.307 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:02.309 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:33.858 +08:00 [INF] Applying upgrade step Select an entrypoint
+2021-08-23 12:14:51.016 +08:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-08-23 12:14:54.342 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:14:54.403 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.406 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.408 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.408 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.411 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.412 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.414 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.414 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.415 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.417 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.419 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.420 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.426 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:14:54.434 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.436 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.437 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.438 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.439 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.440 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.441 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.442 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.443 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.444 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.446 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.447 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.457 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:14:54.461 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.462 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.466 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.470 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.471 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.472 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.474 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.475 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.476 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.478 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.481 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.485 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.489 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-23 12:14:54.521 +08:00 [ERR] Project C:\workshop\ctos\CsvReader\code\CsvReaderDemoWeb\CsvReaderDemoWeb.csproj cannot be loaded: Could not load project. Please ensure the selected VS instance has the correct workloads installed for your projects. If Upgrade Assistant selected the incorrect VS version, please pass the argument --vs-path with the appropriate path. You can see the Visual Studio instances searched by running with the --verbose flag.
+2021-08-23 12:14:54.525 +08:00 [INF] No projects need upgraded for selected entrypoint
+2021-08-23 12:14:54.528 +08:00 [INF] Initializing upgrade step Finalize upgrade
+2021-08-23 12:14:54.536 +08:00 [INF] Recommending TFM netcoreapp1.0 because of dependency on project C:\workshop\ctos\CsvReader\code\LumenWorks.Framework.Tests.Unit\LumenWorks.Framework.Tests.Unit.csproj
+2021-08-23 12:14:54.539 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.540 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.544 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.546 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.548 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.549 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.550 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.551 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.552 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.553 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:14:54.555 +08:00 [INF] Skip minimum dependency check because .NET MAUI support multiple TFMs.
+2021-08-23 12:14:54.556 +08:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-23 12:15:02.140 +08:00 [INF] Applying upgrade step Finalize upgrade
+2021-08-23 12:15:02.142 +08:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-08-23 12:15:04.694 +08:00 [INF] Upgrade has completed. Please review any changes.
+2021-08-23 12:15:04.703 +08:00 [INF] No state to save

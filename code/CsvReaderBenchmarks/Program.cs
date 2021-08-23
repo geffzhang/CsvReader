@@ -19,9 +19,9 @@ namespace CsvReaderBenchmarks
             const string TestFile2 = @"test2.csv";
             const string TestFile3 = @"test3.csv";
 
-#if !NETCOREAPP1_0
+
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
-#endif
+
 
             if (args.Length > 0)
             {
@@ -41,11 +41,11 @@ namespace CsvReaderBenchmarks
                             PerformanceTestWithStringBuilder();
                             return;
 
-#if !NETCOREAPP1_0 && !NETCOREAPP2_0
+
                         case "OLEDB":
                             OleDbBenchmark.Run(TestFile3);
                             return;
-#endif
+
                         case "REGEX":
                             RegexBenchmark.Run(TestFile3);
                             return;
@@ -67,36 +67,34 @@ namespace CsvReaderBenchmarks
                 Console.WriteLine("Test pass #{0} - All fields\n", i);
 
                 DoTest("CsvReader - No cache", fileSize, CsvReaderBenchmark.Run, TestFile2);
-#if !NETCOREAPP1_0
+
                 object csv = DoTest("CachedCsvReader - Run 1", fileSize, CachedCsvReaderBenchmark.Run1, TestFile2);
                 DoTest("CachedCsvReader - Run 2", fileSize, CachedCsvReaderBenchmark.Run2, csv);
-#endif
-#if !NETCOREAPP1_0 && !NETCOREAPP2_0
+
                 DoTest("TextFieldParser", fileSize, TextFieldParserBenchmark.Run, TestFile2);
-#endif
+
                 DoTest("Regex", fileSize, RegexBenchmark.Run, TestFile2);
 
                 // seems to not be working on Windows 7 with Office 2007 (and I'm not bothering to try to make it run on my machine)
-                //DoTest("OleDb", fileSize, OleDbBenchmark.Run, TestFile2);
+                // DoTest("OleDb", fileSize, OleDbBenchmark.Run, TestFile2);
 
                 Console.WriteLine();
 
                 Console.WriteLine("Test pass #{0} - Field #{1} (middle)\n", i, field);
 
                 DoTest("CsvReader - No cache", fileSize, CsvReaderBenchmark.Run, TestFile2, field);
-#if !NETCOREAPP1_0
+
                 csv = DoTest("CachedCsvReader - Run 1", fileSize, CachedCsvReaderBenchmark.Run1, TestFile2, field);
                 DoTest("CachedCsvReader - Run 2", fileSize, CachedCsvReaderBenchmark.Run2, csv, field);
-#endif
-#if !NETCOREAPP1_0 && !NETCOREAPP2_0
+
                 DoTest("TextFieldParser", fileSize, TextFieldParserBenchmark.Run, TestFile2, field);
-#endif
+
                 DoTest("Regex", fileSize, RegexBenchmark.Run, TestFile2, field);
 
                 // seems to not be working on Windows 7 with Office 2007 (and I'm not bothering to try to make it run on my machine)
-#if !NETCOREAPP1_0 && !NETCOREAPP2_0
+
                 //DoTest("OleDb", fileSize, OleDbBenchmark.Run, TestFile2, Field);
-#endif
+
 
                 Console.WriteLine();
                 Console.WriteLine();
@@ -133,7 +131,7 @@ namespace CsvReaderBenchmarks
             rate = fileSize / time;
         }
 
-#if !NETCOREAPP1_0
+
         private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
         {
             if (e.ExceptionObject != null)
@@ -146,7 +144,7 @@ namespace CsvReaderBenchmarks
             }
             Console.ReadLine();
         }
-#endif
+
 
         private static void PerformanceTestWithNullRemovalStreamReader()
         {
